@@ -1,0 +1,1 @@
+wt -d . cmd /k hexo s
