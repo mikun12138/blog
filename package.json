@@ -6,7 +6,9 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+
+    "daily": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --categories daily --path daily/$(date +%Y-%m-%d)/$title' --"
   },
   "hexo": {
     "version": "7.3.0"
