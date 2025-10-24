@@ -1,15 +1,12 @@
 {
-  "name": "mikun_home",
-  "version": "11.45.14",
+  "name": "hexo-site",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
-    "misc": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --path misc/$title' --",
-    "daily": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --path daily/$(date +%Y-%m-%d)/$title' --categories daily --"
-
+    "server": "hexo server"
   },
   "hexo": {
     "version": "7.3.0"
@@ -31,14 +28,13 @@
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-pagination": "4.0.0",
-    "hexo-renderer-aether": "0.0.6",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^7.0.0",
+    "hexo-renderer-multi-next-markdown-it": "^0.2.1",
     "hexo-renderer-pug": "3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-theme-shokax": "^0.5.4",
+    "hexo-theme-shokax": "0.5.1",
     "hexo-util": "3.3.0",
     "instantsearch.js": "4.79.2",
     "js-yaml": "4.1.0",
