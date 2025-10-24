@@ -1,5 +1,11 @@
 alternate: mikunの部屋 # 站点大标题
 
+# 实验性特性
+experiments:
+  mobileWidth: 820px # 移动版和桌面版导航栏最短切换长度
+  copyrightLength: 50 # 自定义复制时显示copyright的长度
+  antiFakeWebsite: false # 防止恶意网站伪装
+
 darkmode: true
 
 loader:
