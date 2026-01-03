@@ -25,7 +25,7 @@ server {
     charset utf-8;
 
     location / {
-        root    /data/data/com.termux/files/home/wordpress/test;
+        root    path/to/wordpress; # 自己改
         index   index.php index.html index.htm;
     }
 

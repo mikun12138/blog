@@ -1,12 +1,14 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "mikun_home",
+  "version": "11.45.14",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+
+    "misc": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --path misc/$title' --",
+    "daily": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --path daily/$(date +%Y-%m-%d)/$title --categories daily' --",
+
+    "blog": "hexo clean && hexo s"
   },
   "hexo": {
     "version": "7.3.0"
