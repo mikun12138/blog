@@ -123,3 +123,4 @@ audio:
     list:
       - https://music.163.com/#/playlist?id=13791554505
 
+image_server: "http://pic.mikun.icu/random"
