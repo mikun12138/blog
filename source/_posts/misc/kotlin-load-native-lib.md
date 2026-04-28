@@ -1,6 +1,5 @@
 ---
-title: 2025-6-16
-categories: daily
+title: Kotlin Load Native Lib
 date: 2025-06-16 22:33:49
 tags: 
 ---

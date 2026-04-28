@@ -8,6 +8,8 @@ tags: termux
 
 php-fpm 即 FastCGI Process Manager, 相比于 php-cgi 实现了更快的 FastCGI 协议(和一堆杂七杂八的配置), linux 独占
 
+\/ TODO: windows似乎也是支持的?
+
 ``` bash
     pkg install php php-fpm
 ```

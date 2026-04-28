@@ -1,8 +1,10 @@
 ---
 title: KMP
+date: 2025-?-? ?:?:?
+tags:
 ---
 
-# 记一次完整的kmp项目新建 
+# 记一次完整的kmp项目搭建
 {% asset_img 0.png %}
 
 ## 环境

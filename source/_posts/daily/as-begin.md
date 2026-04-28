@@ -1,5 +1,6 @@
 ---
 title: as-begin
+categories: daily
 date: 2025-10-22 18:06:55
 tags:
 ---
@@ -18,4 +19,7 @@ tags:
 
     祝我好运
 
+## 2026-4-29
+
+    ???
 
