@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "deploy": "hexo deploy",
-
     "misc": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --path misc/$title' --",
     "daily": "sh -c 'title=${1:-lucky-$((RANDOM % 101))}; hexo new $title --path daily/$(date +%Y-%m-%d)/$title --categories daily' --",
-
-    "blog": "hexo clean && hexo s"
+    "blog": "hexo clean && hexo g && hexo s"
   },
   "hexo": {
     "version": "7.3.0"
@@ -23,6 +21,7 @@
     "hana-img-viewer": "1.2.3",
     "hexo": "^7.3.0",
     "hexo-algoliasearch": "2.0.1",
+    "hexo-asset-img": "^1.2.0",
     "hexo-feed": "1.1.2",
     "hexo-fs": "5.0.0",
     "hexo-generator-archive": "^2.0.0",

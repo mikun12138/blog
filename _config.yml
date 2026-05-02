@@ -135,3 +135,7 @@ markdown:
         enable: true
         options:
           title: "你知道得太多了"
+
+marked:
+  postAsset: true
+  prependRoot: true
