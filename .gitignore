@@ -9,3 +9,7 @@ _multiconfig.yml
 
 themes/
 shokaxTemp/
+
+.frontmatter/
+.vscode/
+frontmatter.json
