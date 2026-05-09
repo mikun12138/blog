@@ -5,6 +5,8 @@ tags:
 ---
 
 ``` conf
+exec-once = [workspace 10 silent] obs
+
 exec-once = pactl load-module module-null-sink media.class=Audio/Sink sink_name=Virtual-Sink
 exec-once = pactl load-module module-null-sink media.class=Audio/Source/Virtual sink_name=Virtual-Mic
 
@@ -13,8 +15,20 @@ exec-once = sleep 2 && pw-link OBS-Monitor:output_FR Virtual-Sink:playback_FR
 
 exec-once = sleep 2 && pw-link Virtual-Sink:monitor_FL Virtual-Mic:input_FL
 exec-once = sleep 2 && pw-link Virtual-Sink:monitor_FR Virtual-Mic:input_FR
+
 ```
 
+connect-audio.sh
 ``` bash
-pw-link -l | awk '/^OBS-Monitor/ {src=$1; p=1; next} /^[^ ]/ {p=0} p && /|->/ {print src, $2}' | xargs -n 2 pw-link -d
+sleep 5 && pw-link -l | awk '/^OBS-Monitor/ {src=$1; p=1; next} /^[^ ]/ {p=0} p && /|->/ {print src, $2}' | xargs -n 2 pw-link -d
+
+pw-link OBS-Monitor:output_FL Virtual-Sink:playback_FL
+pw-link OBS-Monitor:output_FR Virtual-Sink:playback_FR
+```
+
+hypridle.conf
+``` conf
+general {
+    after_sleep_cmd = ~/.config/hypr/custom/scripts/connect-audio.sh
+}
 ```
