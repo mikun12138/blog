@@ -81,6 +81,8 @@ social:
   #instagram: https://instagram.com/yourname || instagram
   #skype: skype:yourname?call|chat || skype
   #douban: https://www.douban.com/people/yourname/ || douban
+  osu: https://osu.ppy.sh/users/36617149 || osu || "#ed6c9e"
+  
 
 footer:
   # Specify the date when the site was set up. If not defined, current year will be used.
@@ -124,3 +126,7 @@ audio:
       - https://music.163.com/#/playlist?id=13791554505
 
 image_server: "http://pic.mikun.icu/random"
+
+menu:
+  home: / || home
+  pic: /pic/ || pic
