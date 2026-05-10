@@ -130,3 +130,4 @@ image_server: "http://pic.mikun.icu/random"
 menu:
   home: / || home
   pic: /pic/ || pic
+  disk: /disk/ || disk
