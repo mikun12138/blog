@@ -99,12 +99,16 @@ footer:
     word1: 中 #第一个字
     word2: 秋 #第二个字
   icp: # ICP备案
-    enable: false
-    # 请在登录后从 https://beian.mps.gov.cn/web/business/businessHome/website 下载对应图标
-    icon: "" #网安备案图片
-    icpnumber: "xxx" # ICP备案号
-    beian: "xxx" # 网安备案号
-    recordcode: "xxx" # 网安备案链接中的recordcode参数
+    enable: true
+    icon: ""
+    icpnumber: >-
+      </a>
+      <a href="https://icp.gov.moe/?keyword=20260109" target="_blank">
+        <img loading="lazy" decoding="async" src="https://icp.gov.moe/images/gov.svg" style="max-width: 2em;display:inline; vertical-align: middle;" width="20" height="20" alt="备案">
+        <span>萌ICP备20260109号</span>
+      </a>
+    beian: "" # 网安备案号
+    recordcode: "" # 网安备案链接中的recordcode参数
 
 post:
   count: false
