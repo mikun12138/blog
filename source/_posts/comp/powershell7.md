@@ -2,6 +2,9 @@
 title: powershell7
 date: 2026-05-02 04:53:25
 tags:
+    - win
+categories:
+    - qol
 ---
 
 windows系统自带的powershell是古早的5.1

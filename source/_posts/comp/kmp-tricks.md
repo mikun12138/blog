@@ -1,8 +1,10 @@
 ---
-title: lucky-73
-categories: daily
+title: kmp-tricks
 date: 2025-12-20 11:35:55
 tags:
+    - kt
+categories:
+    - dev
 ---
 
 ``` kotlin

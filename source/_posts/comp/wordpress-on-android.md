@@ -1,7 +1,10 @@
 ---
 title: 在 android termux 上安装 wordpress
 date: 2025-10-24 18:19:51
-tags: termux
+tags:
+    - android
+categories:
+    - misc
 ---
 
 采用 nginx + php-fpm

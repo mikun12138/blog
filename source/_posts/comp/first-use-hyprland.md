@@ -2,6 +2,7 @@
 title: first-use-hyprland
 date: 2026-04-30 03:03:20
 tags:
+    - hyprland
 ---
 
 这两天没少刷到hypeland 极致ui极致动画极致beauty 给我看手痒了...
@@ -52,7 +53,7 @@ env = QT_QUICK_BACKEND,software
 - ## [end-4's dots-hyprland](https://github.com/end-4/dots-hyprland)
     {% asset_img 2.png %}
     
-    一切正常 但是卡的批爆
+    跑是没问题 功能还算完整 但是没法很好调用显卡 帧率奇低
 
     编译dxgkrnl无果 ~~不是很懂你们gcc~~
 
@@ -70,4 +71,6 @@ env = QT_QUICK_BACKEND,software
 
 [ a few days later... ]
 
-完全跑不起来 3d加速也开了但也是寄 
+完全跑不起来 3d加速也开了但也是寄
+
+# 实机很顺利不写了

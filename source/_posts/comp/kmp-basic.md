@@ -2,6 +2,9 @@
 title: KMP
 date: 2025-?-? ?:?:?
 tags:
+    - kt
+categories:
+    - dev
 ---
 
 # 记一次完整的kmp项目搭建

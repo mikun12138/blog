@@ -2,6 +2,9 @@
 title: use-skiko
 date: 2025-06-14 01:24:32
 tags:
+    - kt
+categories:
+    - dev
 ---
 
 ``` kotlin

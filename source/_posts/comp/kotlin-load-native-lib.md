@@ -1,7 +1,10 @@
 ---
 title: Kotlin Load Native Lib
 date: 2025-06-16 22:33:49
-tags: 
+tags:
+    - kt
+categories:
+    - dev
 ---
 
 加载本地库

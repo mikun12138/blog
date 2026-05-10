@@ -2,6 +2,9 @@
 title: arch-softs
 date: 2026-05-09 23:50:37
 tags:
+    - linux
+categories:
+    - misc
 ---
 
 ## 字体管理

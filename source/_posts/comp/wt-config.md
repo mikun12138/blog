@@ -2,6 +2,9 @@
 title: wt-config
 date: 2026-05-02 03:20:19
 tags:
+    - win
+categories:
+    - misc
 ---
 
     wt的窗口启动大小以字符度量
