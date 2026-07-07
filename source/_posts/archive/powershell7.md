@@ -7,7 +7,7 @@ categories:
     - qol
 ---
 
-windows系统自带的powershell是古早的5.1
+windows系统自带的powershell是古早的5.1 (至少win10是)
 
 
 尽管这个版本跟系统绑死了 但powershell7是可以独立安装的

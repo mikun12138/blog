@@ -1,5 +1,5 @@
 ---
-title: arch-softs
+title: softs-arch
 date: 2026-05-09 23:50:37
 tags:
     - linux
@@ -32,13 +32,19 @@ categories:
 
 # qol
 
+## vnc on wayland
+- [wayvnc](https://archlinux.org/packages/extra/x86_64/wayvnc/)
+
+## all protocols in one
+- [remmina](https://archlinux.org/packages/extra/x86_64/remmina/)
+
 ## sandbox版
 - [linuxqq-nt-bwrap](https://aur.archlinux.org/packages/linuxqq-nt-bwrap)
 
 ## 带key版
 - [hmcl-bin](https://aur.archlinux.org/packages/hmcl-bin/)
 
-> "可是我明明只装了一个字体包"
+## "可是我明明只装了一个字体包"
 >> [font-manager](https://archlinux.org/packages/extra/x86_64/font-manager/)
 
 ## 全网可搜

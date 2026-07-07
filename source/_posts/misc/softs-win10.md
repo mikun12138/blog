@@ -1,13 +1,11 @@
 ---
-title: a-few-tools-win10
+title: softs-win10
 date: 2026-05-05 17:04:18
 tags:
     - win
 categories:
     - misc
 ---
-
-整理一些在用的小工具小软件
 
 [图吧工具箱](https://www.tbtool.cn/)
 

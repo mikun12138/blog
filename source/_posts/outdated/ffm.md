@@ -1,5 +1,5 @@
 ---
-title: foreign's memory
+title: ffm
 date: 2025-05-11 04:59:41
 tags: null
 categories:

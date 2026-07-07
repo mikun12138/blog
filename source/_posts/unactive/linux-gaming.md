@@ -26,3 +26,20 @@ tags:
 "version": 你的dll去掉后缀 | n: native (文件夹内) | b: buildin (wine内)
 
 %command% 即为原启动命令
+
+## 一些第三方wine
+
+#### dwproton
+>>  https://dawn.wine/dawn-winery/dwproton
+
+对于一些加了特殊防作弊的有奇效 (e.g. Blue Archive)
+
+直接安装依赖steam, 也可在protonplus使用
+
+#### ge-proton
+>>  https://github.com/gloriouseggroll/proton-ge-custom
+
+valve proton的fork
+
+直接安装依赖steam, 也可在protonplus使用
+

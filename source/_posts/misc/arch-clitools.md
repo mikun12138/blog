@@ -1,5 +1,5 @@
 ---
-title: clitools
+title: arch-clitools
 date: 2026-06-08 00:46:18
 tags:
 ---
@@ -13,7 +13,7 @@ tree
 tree -L 2
 ```
 
-![alt text](clitools/image.png)
+![alt text](arch-clitools/image.png)
 
 # bat
 cat++
@@ -77,4 +77,10 @@ fork: 支持fork子进程 (并发)
     "TCP-LISTEN:<port>"
     "UNIX-CONNECT:<port>"
     "UNIX-LISTEN:<port>"
+```
+
+# exiftool
+let me see see your exif weather healthy(?
+``` bash
+exiftool [imgfile]
 ```
