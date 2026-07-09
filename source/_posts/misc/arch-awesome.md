@@ -18,3 +18,14 @@ grep -F "[ALPM] upgraded" /var/log/pacman.log
 ``` bash
 grep -F "[ALPM] removed" /var/log/pacman.log
 ```
+
+# qol
+展开文件夹
+``` bash
+find src/ -type f -exec cp -t dest/ {} +
+```
+
+dolphin缓存
+``` bash
+rm -rf ~/.cache/thumbnails/*
+```

@@ -21,7 +21,7 @@ categories:
 ## 这也能导
 - [grub](https://archlinux.org/packages/core/x86_64/grub/)
 
-## 我称它是dolphin拓展
+## 它是dolphin拓展
 - [ffmpegthumbs](https://archlinux.org/packages/extra/x86_64/ffmpegthumbs/)
 
 ## 初音()
@@ -32,7 +32,10 @@ categories:
 
 # qol
 
-## vnc on wayland
+# bt 当然也支持http什么的
+- [motrix-next](https://aur.archlinux.org/packages/motrix-next)
+
+## wayland vnc server
 - [wayvnc](https://archlinux.org/packages/extra/x86_64/wayvnc/)
 
 ## all protocols in one
@@ -98,10 +101,10 @@ categories:
 ## 可视化是好文明
 + [pamac-all](https://aur.archlinux.org/packages/pamac-all)
   
-## flash叠你没似啊
+## 叠你没似啊
 + [ruffle-nightly-bin](https://aur.archlinux.org/packages/ruffle-nightly-bin)
 
-## 听什么 是啊听什么
+## 是啊听什么
 + [spotify](https://aur.archlinux.org/packages/spotify)
 
 ## 尽享丝滑

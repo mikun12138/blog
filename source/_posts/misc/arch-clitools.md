@@ -26,6 +26,17 @@ cat分页版
 ``` bash
 less file.txt
 ```
+g           跳到文件头
+
+G           跳到文件头
+
+看日志
+``` bash
+less +F file.log
+```
+ctrl + c    暂停实时跟踪
+
+shift + f   继续~~~~
 
 # find
 找文件
@@ -84,3 +95,10 @@ let me see see your exif weather healthy(?
 ``` bash
 exiftool [imgfile]
 ```
+
+# dust
+看磁盘占用分布的
+``` bash
+dust
+```
+![alt text](arch-clitools/image-1.png)
