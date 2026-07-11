@@ -29,3 +29,8 @@ dolphin缓存
 ``` bash
 rm -rf ~/.cache/thumbnails/*
 ```
+
+tree格式化为yaml
+``` bash
+tree -J | yq -P
+```
