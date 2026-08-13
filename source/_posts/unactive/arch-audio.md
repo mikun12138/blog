@@ -36,6 +36,8 @@ exec-once = sleep 2 && pw-link Virtual-Sink:monitor_FR Virtual-Mic:input_FR
 
 ![alt text](arch-audio/1.png)
 
+> 回来要补ref找不到了...
+
 ### 从睡眠/休眠恢复时 重新检测usb后obs的输出被自动接到了耳机 ~~结果就是能听到自己的声音~~
 
 connect-audio.sh
