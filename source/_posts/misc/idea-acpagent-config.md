@@ -6,7 +6,7 @@ tags:
 
 idea ai-assistant插件直接提供的 codex 对 byok 支持有限 故用实验性的acpagent进行配置
 
-![alt text](idea-acpagent-config/image.png)
+![alt text](image.png)
 
 先安装需要的acp...
 > https://aur.archlinux.org/packages/codex-acp

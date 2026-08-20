@@ -13,7 +13,7 @@ tree
 tree -L 2
 ```
 
-![alt text](arch-clitools/image.png)
+![alt text](image.png)
 
 # bat
 cat++
@@ -101,4 +101,4 @@ exiftool [imgfile]
 ``` bash
 dust
 ```
-![alt text](arch-clitools/image-1.png)
+![alt text](image-1.png)
