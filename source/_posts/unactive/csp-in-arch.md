@@ -15,14 +15,20 @@ categories:
 ``` bash
 yay -S opentabletdriver bottles
 ```
+## Auto
+> https://www.youtube.com/watch?v=iYhEm32Lr4Y
 
-## csp
+> https://github.com/parka6060/CSPenguin-Installer
 
-似乎是csp会默认调用windows lnk的缘故 模拟win10+下均启动失败
+## Manual
+
+### csp
+
+似乎是csp会默认调用windows ink的缘故 模拟win10+下均启动失败
 
 使用win7成功启动 kron4ek-wine-11.9-amd下笔压正常
 
-## cs
+### cs
 
 clipstudio界面使用webview2 需要安装一个microsoft edge
 
@@ -31,3 +37,5 @@ clipstudio界面使用webview2 需要安装一个microsoft edge
 觉得edge烦的可以单独全局安装webview2 不过webview2不支持win7全局安装 可切到win10安装再切回
 
 ~~或者直接用Remove-Edge~~
+
+> OpenTabletDriver有个 windows ink插件 解决了有时wine内收不到点击输入的问题
