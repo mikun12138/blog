@@ -5,5 +5,5 @@ tags:
 ---
 
 ``` bash
-ln -s "/mnt/windows/game/.game/Binding of Isaac Repentance/saves" "$HOME/.local/share/binding of isaac repentance"
+ln -s "/mnt/windows/game/.game/Binding of Isaac Repentance/saves" "$HOME/.local/share/Steam/steamapps/compatdata/250900/pfx/drive_c/users/steamuser/Documents/My Games/Binding of Isaac Repentance"
 ```
